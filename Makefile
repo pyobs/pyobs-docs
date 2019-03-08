@@ -17,6 +17,9 @@ help:
 livehtml:
 	sphinx-autobuild -b html $(ALLSPHINXOPTS) "$(SOURCEDIR)/" "$(BUILDDIR)/html/"
 
+github:
+	make html && rsync -a --delete build/html/* docs/
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile

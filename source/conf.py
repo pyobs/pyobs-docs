@@ -14,15 +14,13 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../'))
-sys.path.insert(0, os.path.abspath('../../'))
+sys.path.insert(0, os.path.abspath('../../pyobs-core/'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'pyobs'
-copyright = '2018, Tim-Oliver Husser'
+copyright = '2019, Tim-Oliver Husser'
 author = 'Tim-Oliver Husser'
 
 # The short X.Y version
@@ -87,6 +85,7 @@ pygments_style = 'sphinx'
 # html_theme = 'alabaster'
 # html_theme = "classic"
 html_theme = 'sphinx_rtd_theme'
+#html_theme = 'groundwork'
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
