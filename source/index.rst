@@ -15,8 +15,7 @@ Welcome to pyobs!
    installing
    basicusage
    cli
-   comm
-   environment
+   auxiliary/index
 
 
 Indices and tables

@@ -86,4 +86,4 @@ In case the module is supposed to communicate with others, we need another modul
       class: pyobs.comm.xmpp.XmppComm
       jid: some_module@my.domain.com
 
-More details about this can be found in the :doc:`comm` section.
+More details about this can be found in the :doc:`auxiliary/comm` section.
