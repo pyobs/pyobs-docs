@@ -8,10 +8,12 @@ Welcome to pyobs!
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: Contents:
 
    installing
    basicusage
+   cli
    comm
    environment
 
