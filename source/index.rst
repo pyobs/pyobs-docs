@@ -16,6 +16,7 @@ Welcome to pyobs!
    basicusage
    cli
    auxiliary/index
+   modules/index
 
 
 Indices and tables
