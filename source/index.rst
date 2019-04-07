@@ -11,6 +11,7 @@ Welcome to pyobs!
    :numbered:
    :caption: Contents:
 
+   quickstart
    installing
    basicusage
    cli
