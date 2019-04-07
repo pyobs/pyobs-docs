@@ -3,6 +3,8 @@ Command Line Interface
 *pyobs* comes with two different command line tools, :program:`pyobs` and :program:`pyobsd`, which can run a single
 module or start multiple ones, respectively.
 
+.. _cli-pyobs:
+
 Module launcher *pyobs*
 -----------------------
 The :program:`pyobs` command runs a single module. A typical command for running *pyobs* simply defines a configuration
@@ -63,10 +65,12 @@ There are three different ways for providing a server connection:
 3. Provide the username and password in the environment variables **PYOBS_USERNAME** and **PYOBS_PASSWORD**,
    respectively. The server can be defined via **PYOBS_SERVER**.
 
+.. _cli-pyobsd:
+
 *pyobsd* daemon
 ---------------
-The :program:`pyobsd` command can automatically start and stop multiple modules, if their configuration files are all stored
-in a single directory.
+The :program:`pyobsd` command can automatically start and stop multiple modules, if their configuration files are all
+stored in a single directory.
 
 Commands
 ********

@@ -1,32 +1,6 @@
 Quickstart
 ==========
 
-Setting up ejabberd
--------------------
-In case you already have a working XMPP server, skip this step.
-
-1. Download ejabberd from https://www.process-one.net/en/ejabberd/downloads/ and install it.
-
-2. Since the allowed packet sizes are by default a little too small, find the ejabberd config file **ejabberd.yml**
-   and find and edit the "shaper" part::
-
-    shaper:
-      normal: 100000
-      fast: 5000000
-
-3. Start ejabberd server using::
-
-    ejabberdctl start
-
-4. Add a Shared Roster Group so that all clients are in each others roster (replace <host> with local hostname)::
-
-    ejabberdctl srg_create all <host> all all all
-    ejabberdctl srg_user_add @all@ <host> all <host>
-
-5. Register users (may skip for now), e.g.::
-
-    ejabberdctl register <name> <host> <password>
-
 Install *pyobs*
 ---------------
 1. Clone the *pyobs* repository::
@@ -42,6 +16,9 @@ Install *pyobs*
 3. Install requirements::
 
     pip install -r requirements.txt
+
+See :ref:`installing` for a more in-depth explanation. There you also find some help for setting up an XMPP
+server (see :ref:`installing-ejabberd`).
 
 Run simple config
 -----------------
