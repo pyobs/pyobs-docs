@@ -2,15 +2,19 @@ Modules
 =======
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: pyobs-core repository:
 
-   autofocus/index
-   autoguiding/index
-   camera/index
-   filecache/index
-   imagedb/index
-   proxy/index
-   roof/index
-   telescope/index
-   test/index
+   pyobs_core/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: pyobs-fli repository:
+
+   pyobs_fli/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: pyobs-sbig repository:
+
+   pyobs_sbig/index
