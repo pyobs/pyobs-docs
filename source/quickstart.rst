@@ -17,8 +17,6 @@ Install *pyobs*
 
     pip install -r requirements.txt
 
-See :ref:`installing` for a more in-depth explanation. There you also find some help for setting up an XMPP
-server (see :ref:`installing-ejabberd`).
 
 Run simple config
 -----------------
