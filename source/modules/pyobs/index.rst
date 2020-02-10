@@ -1,5 +1,5 @@
-pyobs_core
-==========
+pyobs
+=====
 
 .. toctree::
    :maxdepth: 2

@@ -1,5 +1,5 @@
 Acquisition
-======
+===========
 
 .. toctree::
    :maxdepth: 2
