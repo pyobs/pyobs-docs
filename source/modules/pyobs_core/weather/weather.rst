@@ -1,6 +1,6 @@
-ImageDB
+Weather
 =======
 
-.. autoclass:: pyobs.modules.imagedb.ImageDB
+.. autoclass:: pyobs.modules.weather.Weather
     :members:
     :special-members: __init__

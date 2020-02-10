@@ -5,6 +5,5 @@ Image database
    :maxdepth: 2
    :caption: Contents:
 
-   imagedb
-   newimagewatcher
-   newimagewriter
+   imagewatcher
+   imagewriter

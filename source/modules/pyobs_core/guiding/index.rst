@@ -5,4 +5,5 @@ Auto-guiding
    :maxdepth: 2
    :caption: Contents:
 
-   projection
+   autoguider
+   scienceframe

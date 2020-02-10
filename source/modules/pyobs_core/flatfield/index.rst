@@ -1,8 +1,9 @@
-Auto-focus
-==========
+FlatField
+=========
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   projection
+   flatfield
+   scheduler

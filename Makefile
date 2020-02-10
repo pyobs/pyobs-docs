@@ -17,6 +17,8 @@ help:
 livehtml:
 	sphinx-autobuild -b html $(ALLSPHINXOPTS) "$(SOURCEDIR)/" "$(BUILDDIR)/html/"
 
+github: export PYTHONPATH=$PYTHONPATH:../pyobs-andor:../pyobs-archive:../pyobs-ascom:../pyobs-core:../pyobs-fli:../pyobs-gemini:../pyobs-gui:../pyobs-pilar:pyobs_qhyccd:../pyobs-sbig:../pyobs-weather
+
 github:
 	make html && rsync -a --delete build/html/* ../pyobs.github.io/
 

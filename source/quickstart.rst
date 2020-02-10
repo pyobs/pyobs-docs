@@ -4,33 +4,9 @@ Quickstart
 Install *pyobs*
 ---------------
 
-Via pip
-^^^^^^^
-
-Just install it::
+Just use pip::
 
     pip3 install pyobs-core
-
-Manually
-^^^^^^^^
-1. Clone the *pyobs* repository::
-
-    git clone https://github.com/pyobs/pyobs-core.git pyobs
-    cd pyobs
-
-2. Create virtual environment::
-
-    python3 -m venv venv
-    source ./venv/bin/activate
-
-3. Install requirements::
-
-    pip install -r requirements.txt
-
-4. And pyobs itself::
-
-    python setup.py install
-
 
 Run simple config
 -----------------
