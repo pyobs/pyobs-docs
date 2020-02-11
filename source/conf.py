@@ -16,6 +16,10 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../../pyobs-core/'))
 
+# django
+import django
+os.environ['DJANGO_SETTINGS_MODULE'] = 'pyobs_weather.settings'
+django.setup()
 
 # -- Project information -----------------------------------------------------
 
@@ -41,13 +45,15 @@ release = ''
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.githubpages',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx.ext.autosectionlabel'
 ]
 
 # napoleon settings
 napoleon_google_docstring = True
 napoleon_use_param = False
 napoleon_use_ivar = True
+autoclass_content = 'both'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
