@@ -24,7 +24,7 @@ django.setup()
 # -- Project information -----------------------------------------------------
 
 project = 'pyobs'
-copyright = '2019, Tim-Oliver Husser'
+copyright = '2020, Tim-Oliver Husser'
 author = 'Tim-Oliver Husser'
 
 # The short X.Y version
